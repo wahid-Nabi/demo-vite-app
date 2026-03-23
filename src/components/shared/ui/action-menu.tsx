@@ -1,4 +1,4 @@
-import { IconButton, Menu, MenuItem } from "@mui/material";
+import { IconButton, Menu, MenuItem, Typography } from "@mui/material";
 import { EllipsisVertical } from "lucide-react";
 import React from "react";
 
@@ -38,6 +38,7 @@ const ActionMenu = ({
     <>
       <IconButton size="small" onClick={(e) => setAnchorEl(e.currentTarget)}>
         <EllipsisVertical size={16} />
+        <Typography>hii</Typography>
       </IconButton>
 
       <Menu
