@@ -16,7 +16,7 @@ const TestComponent = () => {
   const [multipselectValue, setMultiselectValue] = useState<number[]>([]);
   const theme = useTheme();
   const handleChange = (event: SelectChangeEvent<number[]>) => {
-    console.log(event);
+    //console.log(event);
     const {
       target: { value },
     } = event;
