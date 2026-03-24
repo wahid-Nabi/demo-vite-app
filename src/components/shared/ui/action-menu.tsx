@@ -39,6 +39,7 @@ const ActionMenu = ({
       <IconButton size="small" onClick={(e) => setAnchorEl(e.currentTarget)}>
         <EllipsisVertical size={16} />
         <Typography>heloo</Typography>
+        <Typography>jsdks</Typography>
       </IconButton>
 
       <Menu
